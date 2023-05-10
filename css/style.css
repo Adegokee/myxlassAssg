@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#F7FFE2, #EAFCF3);
+}
+
+/* beginning of nav section */
+
+.container{
+    width: 100%;
+    display: flex;
+    /* display: none; */
+    /* display: block; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container .navImg img{
+    width: 100px;
+}
+
+.container .nav_link {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* end of nav section */
+
+.container .nav_link div a{
+    text-decoration: none;
+    /* padding: 10px 20px 3px 4px; */
+    margin: 15px;
+    /* font-size: 15px; */
+    /* color: white; */
+}
+
+.bi-chevron-down{
+    padding-top: 20px;
+    font-size: 10px;
+}
+
